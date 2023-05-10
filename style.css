@@ -1,5 +1,8 @@
 body {
- background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+ background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(33, 37, 63) 78.9%);
+ background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
 }
 
 .container {
@@ -69,3 +72,17 @@ p{
   align-items: center; 
   color: azure;
 }
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
