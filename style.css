@@ -60,4 +60,12 @@ button {
 #save-btn {
     background: linear-gradient(to right, #868f96 0%, #596164 100%);
      background: linear-gradient(-45deg, rgba(0,0,0,0.22), rgba(255,255,255,0.25));
+     margin-left: 20px;
+}
+
+p{
+   display:flex;
+  justify-content: center;
+  align-items: center; 
+  color: azure;
 }
